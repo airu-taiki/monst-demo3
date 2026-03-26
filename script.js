@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
   async function safePlay(video, reset = true) {
     if (!video) return false;
     try {
-      video.muted = true;
+      video.muted = false;
       video.playsInline = true;
       if (reset) video.currentTime = 0;
       await video.play();
