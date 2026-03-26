@@ -4,22 +4,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Monst Security Demo</title>
-  <link rel="stylesheet" href="styles.css?v=3" />
+  <link rel="stylesheet" href="styles.css?v=4" />
 </head>
 <body>
   <div id="app">
     <div id="stage">
-      <video id="bgmVideo" class="bg-video hidden" playsinline preload="auto" muted loop>
+      <video id="bgmVideo" class="bg-video hidden" playsinline preload="auto" loop>
         <source src="assets/bgm.mp4" type="video/mp4">
+        <source src="assets/bgm.mov" type="video/quicktime">
         <source src="assets/BGM.MOV" type="video/quicktime">
       </video>
 
-      <video id="alertVideo" class="alert-video hidden" playsinline preload="auto" muted>
+      <video id="alertVideo" class="alert-video hidden" playsinline preload="auto">
         <source src="assets/alert.mp4" type="video/mp4">
         <source src="assets/alert.mov" type="video/quicktime">
       </video>
 
-      <video id="glitchVideo" class="overlay-video hidden" playsinline preload="auto" muted>
+      <video id="glitchVideo" class="overlay-video hidden" playsinline preload="auto">
         <source src="assets/glitch.mp4" type="video/mp4">
         <source src="assets/glitch.mov" type="video/quicktime">
         <source src="assets/グリッチ.MOV" type="video/quicktime">
@@ -77,6 +78,6 @@
     </div>
   </div>
 
-  <script src="script.js?v=3"></script>
+  <script src="script.js?v=4"></script>
 </body>
 </html>
